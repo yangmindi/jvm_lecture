@@ -8,12 +8,26 @@ public class MyTest5 {
     }
 }
 
-class MyParent5{
-//    public static int a  = 5;
-    public static int a  = new Random().nextInt();
+class Grandpa{
+    public static Thread thread = new Thread(){
+        {
+            System.out.println("Grandpa invoked");
+        }
+    };
 }
 
-class MyChild5 extends MyParent5{
-    public static int b = 6;
-//    public static int b = new Random().nextInt();
+interface MyParent5{
+//    public static int a  = 6;
+//    public static int a  = new Random().nextInt();
+
+    public static Thread thread = new Thread(){
+        {
+            System.out.println("MyParent5 invoked");
+        }
+    };
+}
+
+class MyChild5 implements MyParent5{
+    public static int b = new Random().nextInt(5);
+//    public static final int b = new Random().nextInt();
 }
