@@ -1,4 +1,4 @@
-package com.ymd.jvm.classloader;
+package com.ymd.jvm.lean;
 
 public class JavaVMStackSOF {
     private int stackLength = 1;
@@ -6,7 +6,7 @@ public class JavaVMStackSOF {
     public void stackLeak()
     {
         stackLength++;
-        long[] longs = new long[6000];
+        long[] res = new long[5000];
         stackLeak();
     }
 
