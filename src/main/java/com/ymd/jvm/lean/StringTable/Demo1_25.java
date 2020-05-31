@@ -1,4 +1,4 @@
-package cn.itcast.jvm.t1.stringtable;
+package com.ymd.jvm.lean.StringTable;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -27,7 +27,8 @@ public class Demo1_25 {
                     if(line == null) {
                         break;
                     }
-                    address.add(line.intern());
+//                    address.add(line.intern());
+                    address.add(line);
                 }
                 System.out.println("cost:" +(System.nanoTime()-start)/1000000);
             }

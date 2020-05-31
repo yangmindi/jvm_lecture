@@ -1,4 +1,4 @@
-package cn.itcast.jvm.t2;
+package com.ymd.jvm.lean.GC;
 
 import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;

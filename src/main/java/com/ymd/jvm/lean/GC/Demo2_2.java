@@ -1,4 +1,4 @@
-package cn.itcast.jvm.t2;
+package com.ymd.jvm.lean.GC;
 
 import java.io.IOException;
 import java.util.ArrayList;

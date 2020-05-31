@@ -1,4 +1,4 @@
-package cn.itcast.jvm.t2;
+package com.ymd.jvm.lean.GC;
 
 import java.io.IOException;
 import java.lang.ref.SoftReference;
@@ -16,6 +16,7 @@ public class Demo2_3 {
 
 
     public static void main(String[] args) throws IOException {
+//        强引用
         /*List<byte[]> list = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
             list.add(new byte[_4MB]);

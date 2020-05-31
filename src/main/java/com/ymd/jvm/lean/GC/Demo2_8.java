@@ -1,4 +1,4 @@
-package cn.itcast.jvm.t2;
+package com.ymd.jvm.lean.GC;
 
 /*
 查看虚拟机运行参数

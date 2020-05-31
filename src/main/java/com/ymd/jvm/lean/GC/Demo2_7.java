@@ -1,7 +1,4 @@
-package cn.itcast.jvm.t2;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.ymd.jvm.lean.GC;
 
 /**
  * -Xms20M -Xmx20M -Xmn10M -XX:+UseSerialGC -XX:+PrintGCDetails -verbose:gc

@@ -1,4 +1,4 @@
-package cn.itcast.jvm.t1.stringtable;
+package com.ymd.jvm.lean.StringTable;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;

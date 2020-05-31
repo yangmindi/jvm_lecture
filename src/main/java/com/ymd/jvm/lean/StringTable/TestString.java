@@ -1,4 +1,4 @@
-package cn.itcast.jvm.t1.stringtable;
+package com.ymd.jvm.lean.StringTable;
 
 /**
  * 演示字符串字面量也是【延迟】成为对象的

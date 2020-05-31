@@ -3,6 +3,11 @@ package com.ymd.jvm.lean.StringTable;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 演示 StringTable 位置
+ * 在jdk8下设置 -Xmx10m -XX:-UseGCOverheadLimit
+ * 在jdk6下设置 -XX:MaxPermSize=10m
+ */
 public class Demo1_6 {
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
